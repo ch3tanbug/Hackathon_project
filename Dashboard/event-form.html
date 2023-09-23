@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav nav">
+                <a href="index.html" class="logo"><img src="./assets/images/logo.png" alt="designo logo"></a>
+
+                <ul class="nav__list flex hide-upto-md">
+                    <li><a href="#">Winners</a></li>
+                    <li><a href="#">Participants</a></li>
+                    <li><a href="#">Organizers</a></li>
+
+                </ul>
+                <!-- <div class="add-event">
+              <button>Add Event</button>
+            </div> -->
+                <button id="menu-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+
+        <div class="overlay">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="#">Winners</a></li>
+                    <li><a href="#">Participants</a></li>
+                    <li><a href="#">Organizers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="form">
+        <h1>Event Form</h1>
+        <input type="text" placeholder="Event name" id="event_name">
+        <input type="text" placeholder="Event description" id="event_desc">
+
+        <button>Submit</button>
+    </div>
+</body>
+
+</html>
